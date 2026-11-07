@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases</id>
+  <link type="text/html" rel="alternate" href="https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases.atom"/>
+  <title>Release notes from copse-release-rehearsal-20261107</title>
+  <updated>2026-11-07T00:07:12Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Repository/1448873077/v0.0.3</id>
+    <updated>2026-11-07T00:10:42Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3"/>
+    <title>REHEARSAL ONLY: newer stable baseline fixture</title>
+    <content type="html">&lt;p&gt;Disposable release-control rehearsal. These assets are labelled text fixtures, not installable applications. This repository is not a Copse update feed. No signed-app or GA acceptance is claimed.&lt;/p&gt;</content>
+    <author>
+      <name>jonathanKingston</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/338988?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/1448873077/v0.0.1</id>
+    <updated>2026-11-07T00:12:50Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.1"/>
+    <title>REHEARSAL ONLY: previous stable fixture</title>
+    <content type="html">&lt;p&gt;Disposable release-control rehearsal. These assets are labelled text fixtures, not installable applications. This repository is not a Copse update feed. No signed-app or GA acceptance is claimed.&lt;/p&gt;</content>
+    <author>
+      <name>jonathanKingston</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/338988?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/1448873077/halted/v0.0.2</id>
+    <updated>2026-11-07T00:07:12Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/halted%2Fv0.0.2"/>
+    <title>halted/v0.0.2</title>
+    <content type="html">&lt;p&gt;Initial commit&lt;/p&gt;</content>
+    <author>
+      <name>jonathanKingston</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/338988?s=60&amp;v=4"/>
+  </entry>
+</feed>

@@ -1,0 +1,19 @@
+{
+  "mode": "stable",
+  "version": "0.0.3",
+  "tag": "v0.0.3",
+  "requests": [
+    {
+      "path": "/jonathanKingston/copse-release-rehearsal-20261107/releases.atom",
+      "status": 200
+    },
+    {
+      "path": "/jonathanKingston/copse-release-rehearsal-20261107/releases/latest",
+      "status": 200
+    },
+    {
+      "path": "/jonathanKingston/copse-release-rehearsal-20261107/releases/download/v0.0.3/latest-mac.yml",
+      "status": 200
+    }
+  ]
+}

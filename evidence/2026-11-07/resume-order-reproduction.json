@@ -1,0 +1,105 @@
+[
+  {
+    "at": "2026-11-07T00:12:44.669279+00:00",
+    "args": [
+      "release",
+      "edit",
+      "v0.0.3",
+      "--repo",
+      "jonathanKingston/copse-release-rehearsal-20261107",
+      "--latest"
+    ],
+    "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3"
+  },
+  {
+    "at": "2026-11-07T00:12:45.591808+00:00",
+    "args": [
+      "release",
+      "edit",
+      "v0.0.1",
+      "--repo",
+      "jonathanKingston/copse-release-rehearsal-20261107",
+      "--draft=true"
+    ],
+    "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-09ca7c1a6a12259c8310"
+  },
+  {
+    "at": "2026-11-07T00:12:45.897210+00:00",
+    "args": [
+      "api",
+      "repos/jonathanKingston/copse-release-rehearsal-20261107/releases/latest",
+      "--jq",
+      ".tag_name"
+    ],
+    "stdout": "v0.0.3"
+  },
+  {
+    "at": "2026-11-07T00:12:47.038935+00:00",
+    "args": [
+      "release",
+      "edit",
+      "v0.0.1",
+      "--repo",
+      "jonathanKingston/copse-release-rehearsal-20261107",
+      "--draft=false"
+    ],
+    "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.1"
+  },
+  {
+    "at": "2026-11-07T00:12:47.356890+00:00",
+    "args": [
+      "api",
+      "repos/jonathanKingston/copse-release-rehearsal-20261107/releases/latest",
+      "--jq",
+      ".tag_name"
+    ],
+    "stdout": "v0.0.1"
+  },
+  {
+    "at": "2026-11-07T00:12:48.280813+00:00",
+    "args": [
+      "release",
+      "edit",
+      "v0.0.3",
+      "--repo",
+      "jonathanKingston/copse-release-rehearsal-20261107",
+      "--latest"
+    ],
+    "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3"
+  },
+  {
+    "at": "2026-11-07T00:12:49.267877+00:00",
+    "args": [
+      "release",
+      "edit",
+      "v0.0.1",
+      "--repo",
+      "jonathanKingston/copse-release-rehearsal-20261107",
+      "--draft=true"
+    ],
+    "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-542184f42b84423fbafb"
+  },
+  {
+    "at": "2026-11-07T00:12:50.547297+00:00",
+    "args": [
+      "release",
+      "edit",
+      "v0.0.1",
+      "--repo",
+      "jonathanKingston/copse-release-rehearsal-20261107",
+      "--draft=false",
+      "--latest=false"
+    ],
+    "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.1"
+  },
+  {
+    "at": "2026-11-07T00:12:50.887342+00:00",
+    "args": [
+      "api",
+      "repos/jonathanKingston/copse-release-rehearsal-20261107/releases/latest",
+      "--jq",
+      ".tag_name"
+    ],
+    "stdout": "v0.0.3"
+  }
+]

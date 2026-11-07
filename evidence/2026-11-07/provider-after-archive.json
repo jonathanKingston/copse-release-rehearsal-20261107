@@ -1,0 +1,19 @@
+{
+  "mode": "beta",
+  "error": "Cannot find latest-mac.yml in the latest release artifacts (https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/download/v0.0.4/latest-mac.yml): HttpError: Disposable fixture HTTP error\n    at Object.request (/private/tmp/copse-ga-evidence-20261107/check-provider.cjs:16:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async fetchData (/private/tmp/copse-ga-rehearsal-20261107/node_modules/.pnpm/electron-updater@6.8.9/node_modules/electron-updater/out/providers/GitHubProvider.js:121:25)\n    at async GitHubProvider.getLatestVersion (/private/tmp/copse-ga-rehearsal-20261107/node_modules/.pnpm/electron-updater@6.8.9/node_modules/electron-updater/out/providers/GitHubProvider.js:140:27)",
+  "code": "ERR_UPDATER_CHANNEL_FILE_NOT_FOUND",
+  "requests": [
+    {
+      "path": "/jonathanKingston/copse-release-rehearsal-20261107/releases.atom",
+      "status": 200
+    },
+    {
+      "path": "/jonathanKingston/copse-release-rehearsal-20261107/releases/download/v0.0.4/beta-mac.yml",
+      "status": 404
+    },
+    {
+      "path": "/jonathanKingston/copse-release-rehearsal-20261107/releases/download/v0.0.4/latest-mac.yml",
+      "status": 404
+    }
+  ]
+}

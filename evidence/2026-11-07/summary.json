@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-07",
+  "source_base_sha": "95dd2bd701472f40adb2a18d68d23d5d82817da7",
+  "repository": "jonathanKingston/copse-release-rehearsal-20261107",
+  "scope": "Disposable, non-installable fixtures only. Real GitHub operations and electron-updater 6.8.9 metadata selection, not signed-app installation acceptance.",
+  "proven_defects": [
+    "Resuming an older stable using gh release edit --draft=false implicitly changes latest to it. Explicit --latest=false preserves the newer stable.",
+    "Drafting a release leaves its bare version tag visible in releases.atom. Preserving that Git object under halted/<tag> and removing the original alias withdraws it."
+  ],
+  "acceptance": {
+    "fresh_candidate_72h_promotion_rejected": true,
+    "halt_previous_stable_fallback": "v0.0.3 -> v0.0.1",
+    "halt_without_previous_stable_verified": true,
+    "resume_older_preserves_newest": "v0.0.1 resumed while latest remains v0.0.3",
+    "resumed_release_and_all_12_asset_identities_unchanged": true,
+    "checksums": "11 SHA256SUMS entries passed after download of resumed fixture assets",
+    "updater_beta_forward_candidate": "v0.0.4",
+    "updater_stable_isolation": "v0.0.3",
+    "updater_beta_after_withdrawal": "v0.0.3",
+    "cache_observation": "Metadata may remain briefly selectable during GitHub cache propagation. The existing anonymous verifier waits for convergence. provider-after-archive.json captures a transient 404 on the withdrawn version; provider-after-archive-settled.json confirms fallback.",
+    "production_release_snapshot_unchanged": true
+  },
+  "not_claimed": [
+    "72-hour successful live promotion",
+    "production owner approval",
+    "signed beta-to-stable installation",
+    "signed stable-to-stable installation",
+    "release App tag-permission acceptance",
+    "actual GA readiness"
+  ],
+  "files": {
+    "resume-order-reproduction.json": "681c2b2b43db78de7331f1737b93f036a453907627a47450e437e90813d6a033",
+    "resume-integrity.json": "5dffcc1ef8d544b199ba776d860379afef776bc110b29b07f569f6ddafc66505",
+    "resumed-checksums.log": "13e78c31bc50796149360beaab57d153b7745829326ff6f82b141d1069a7e467",
+    "fresh-candidate-rejection.log": "724e54784a995cbe4a1f90510e30658d003034c517c0c668424bf64200473cb1",
+    "atom-after-halt.xml": "a8132ea36c321c0829180b9e04253c67fa3edefe23b8bbbe6ea7c7bcd0a4c0c6",
+    "atom-after-halt-later.xml": "50fd434b0965c1984c7462a11606793f9c768c783515370a598b866655845f6d",
+    "atom-after-archive.xml": "65cd11683635b0bbf7ecff6a16117edb1a8716b268bbc0749f0d1ee539dff4f2",
+    "patched-halt-stable-anonymous.log": "b8c67705aca5646fa72ecdba6344391546453f7cb34591e6b07df3947f66b648",
+    "patched-halt-first-anonymous.log": "1c50edefbc56ec847263e16c76d3d865cb5ad4fad14246dd1d86facd0d7da419",
+    "patched-resume-newest-anonymous.log": "21b90c3e4b6f152843e5b36ae5335182e2f2f19f96b10237f3f25ac446df7cda",
+    "patched-halt-recovery-anonymous.log": "83cea64d14d5e3f1e2125c0efd55590abbc999c77f59ee8655c94dbec3a1c5a5",
+    "provider-recovery-beta.json": "8c2a00bff428c17c08edd3cb55777b56a3afc0652181cec8a54d9885febf7ec4",
+    "provider-isolation-stable.json": "d2c95b05a96c77ba8485996fc4c57fa0b350adcccbc69528a54633389280a3b1",
+    "provider-after-archive.json": "36bea751cc32282f1c1fa23cfe3dce4f2d8a94f74d24f9a9242703ed7ab9d9b8",
+    "provider-after-archive-settled.json": "ca7570a706e6d7241cde8135be675ab772f914f3111e158c877b8f3d881f4197"
+  }
+}

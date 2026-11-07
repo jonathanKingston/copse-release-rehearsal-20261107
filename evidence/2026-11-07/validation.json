@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-07",
+  "source_commit": "4fa0dcde19536617995e5395855e7540e85324c2",
+  "source_base": "4d997e1ba63ceeaf38b9ef2a57e989dad14b16cd",
+  "draft_pr": "https://github.com/copse-dev/agent-pane/pull/4229",
+  "ci": {
+    "id": 42322226173,
+    "status": "completed",
+    "conclusion": "success",
+    "head": "4fa0dcde19536617995e5395855e7540e85324c2",
+    "url": "https://github.com/copse-dev/agent-pane/actions/runs/42322226173"
+  },
+  "ci_jobs": [
+    {
+      "name": "precheck",
+      "conclusion": "success"
+    },
+    {
+      "name": "autoformat",
+      "conclusion": "success"
+    },
+    {
+      "name": "screenshot-baselines",
+      "conclusion": "success"
+    },
+    {
+      "name": "check",
+      "conclusion": "success"
+    },
+    {
+      "name": "bench",
+      "conclusion": "success"
+    },
+    {
+      "name": "build",
+      "conclusion": "success"
+    },
+    {
+      "name": "review-cell",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "scratch-path-eval-model",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "bench-agent-model",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "doctrine-eval-model",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "eval-tool-preference",
+      "conclusion": "skipped"
+    },
+    {
+      "name": "e2e (3)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (4)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (2)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (1)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (9)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (6)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (8)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (5)",
+      "conclusion": "success"
+    },
+    {
+      "name": "e2e (7)",
+      "conclusion": "success"
+    },
+    {
+      "name": "screenshot-artifacts",
+      "conclusion": "success"
+    },
+    {
+      "name": "CI Passed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Full release validation",
+      "conclusion": "skipped"
+    }
+  ],
+  "local_focused_tests": {
+    "command": "pnpm test -- release-halt release-promotion verify-public-release-state release-validation workspace-package-invariants",
+    "passed": 51,
+    "failed": 0
+  },
+  "local_predecessor_validation": {
+    "source": "2022ebdbe00158cc3f488291a163704da35eee4a",
+    "checks": [
+      "pnpm run check:local",
+      "pnpm run build",
+      "pnpm run test:e2e:markdown (6 spec files passed)"
+    ],
+    "qualification": "Final changes only fix the test's package import and rebase onto main's screenshot-manifest update. Final-source cloud CI passed."
+  },
+  "rehearsal_implementation_unchanged": {
+    "workflow_git_blob": "4565a902518fb0e70e2a481fc8af1628752c5f99",
+    "helper_git_blob": "1532ba76af282cc7139b11ac1d65bc169f72df95"
+  },
+  "screenshot_candidate_count": 0,
+  "production_release_changes": false,
+  "remaining": [
+    "Production release App tag permissions",
+    "Real 72-hour soak and owner-approved promotion",
+    "Signed beta-to-stable and stable-to-stable installation acceptance on macOS 26+ arm64 and x64"
+  ],
+  "full_local_check": "Interrupted during host-dependent stalls; not reported green or noise-only. Mandatory broad validation completed in cloud CI under the AGENTS.md draft/cloud-validation route."
+}

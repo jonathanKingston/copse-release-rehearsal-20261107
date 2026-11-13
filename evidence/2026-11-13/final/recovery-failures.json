@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-13",
+  "source": "94f2943f7083d6d9479cdf55e7f655b7a547dd65",
+  "repository": "jonathanKingston/copse-release-rehearsal-20261107",
+  "tag": "v0.0.6",
+  "object": "e10c716f1c209926008fa052dca6c3b60e998a90",
+  "events": [
+    {
+      "action": "halt",
+      "failure": "unpublished",
+      "exit": 1,
+      "stdout": "",
+      "stderr": "v0.0.6 has never been published; halt/resume only supports previously published releases\n"
+    },
+    {
+      "action": "resume",
+      "failure": "unpublished",
+      "exit": 1,
+      "stdout": "",
+      "stderr": "v0.0.6 has never been published; halt/resume only supports previously published releases\n"
+    },
+    {
+      "action": "halt",
+      "failure": "archive",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-606aae243a268c95b595\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": "injected archive creation failure\nv0.0.6 is drafted but tag withdrawal is incomplete; resolve the tag error and retry halt\n"
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "withdraw",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-d1267af2274b25ecc7b6\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": "injected tag withdrawal failure\nv0.0.6 is drafted but tag withdrawal is incomplete; resolve the tag error and retry halt\n"
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "list",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": "injected post-publication list failure\n"
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-8f699b2e8f04140d7b73\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "latest",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": "injected latest selection failure\n"
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "ref-conflict",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-5e4f63e1279461f5cee3\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": "Refusing to change v0.0.6: its Git object differs from halted/v0.0.6\nv0.0.6 is drafted but tag withdrawal is incomplete; resolve the tag error and retry halt\n"
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "list",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": "injected post-publication list failure\n"
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.6\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-84c34ca3877de935647c\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    }
+  ],
+  "snapshots": {
+    "unpublished": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": true,
+      "prerelease": false,
+      "published_at": null,
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": null,
+      "latest": "v0.0.3"
+    },
+    "initial": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:36:57Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": null,
+      "latest": "v0.0.6"
+    },
+    "archiveFailure": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:36:57Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": null,
+      "latest": "v0.0.3"
+    },
+    "halted": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:36:57Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": null,
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.3"
+    },
+    "withdrawalFailure": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:37:16Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.3"
+    },
+    "partialResume_list": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:37:32Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.3"
+    },
+    "completedResume_list": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:37:32Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.6"
+    },
+    "partialResume_latest": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:37:47Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.3"
+    },
+    "completedResume_latest": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:37:47Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.6"
+    },
+    "conflict": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:37:47Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.3"
+    },
+    "legacyPartial": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:38:12Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.3"
+    },
+    "legacyCompleted": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:38:12Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.6"
+    },
+    "final": {
+      "id": 443749190,
+      "tag": "v0.0.6",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T02:38:12Z",
+      "assets": [
+        {
+          "id": 741978480,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": null,
+      "archive": "e10c716f1c209926008fa052dca6c3b60e998a90",
+      "latest": "v0.0.3"
+    }
+  },
+  "partialHaltAnonymousAssetStatus": 404,
+  "existingFixturesUnchanged": true,
+  "productionTouched": false,
+  "result": "passed"
+}

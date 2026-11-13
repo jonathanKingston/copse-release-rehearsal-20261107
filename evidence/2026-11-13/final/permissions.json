@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-13",
+  "repository": "copse-dev/copse-releases",
+  "app": "copse-release-bot",
+  "method": "Read-only inspection of the organization installation grants and repository rulesets with includes_parents=true. No installation token was exposed.",
+  "release_repository_covered": true,
+  "installation_active": true,
+  "contents_permission": "write",
+  "repository_and_inherited_rulesets": 0,
+  "permission_contract": "https://docs.github.com/en/rest/git/refs?apiVersion=2022-11-28",
+  "production_mutations_attempted": false,
+  "runtime_limit": "Behavior was exercised with developer authentication against disposable fixtures; no production installation-token mutation was attempted."
+}

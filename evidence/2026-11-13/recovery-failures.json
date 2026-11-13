@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-13",
+  "source": "9edb8a9e5946de3d7e53e53a429a79124219d4de",
+  "repository": "jonathanKingston/copse-release-rehearsal-20261107",
+  "tag": "v0.0.5",
+  "object": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+  "events": [
+    {
+      "action": "halt",
+      "failure": "archive",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-62de3b822a22149d0f21\n",
+      "stderr": "injected archive creation failure\n"
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "list",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.5\n",
+      "stderr": "injected post-publication list failure\n"
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.5\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-f4664375b7af43e82d72\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "latest",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.5\n",
+      "stderr": "injected latest selection failure\n"
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.5\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-fd70f741329a81e435c5\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    },
+    {
+      "action": "resume",
+      "failure": "list",
+      "exit": 1,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.5\n",
+      "stderr": "injected post-publication list failure\n"
+    },
+    {
+      "action": "resume",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.5\n",
+      "stderr": ""
+    },
+    {
+      "action": "halt",
+      "failure": "",
+      "exit": 0,
+      "stdout": "https://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/untagged-5d3a9adf9c0ccebc08d8\nhttps://github.com/jonathanKingston/copse-release-rehearsal-20261107/releases/tag/v0.0.3\n",
+      "stderr": ""
+    }
+  ],
+  "snapshots": {
+    "initial": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:47:32Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": null,
+      "latest": "v0.0.5"
+    },
+    "archiveFailure": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:47:32Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": null,
+      "latest": "v0.0.3"
+    },
+    "halted": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:47:32Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": null,
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.3"
+    },
+    "partialResume_list": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:47:56Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.3"
+    },
+    "completedResume_list": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:47:56Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.5"
+    },
+    "partialResume_latest": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:48:15Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.3"
+    },
+    "completedResume_latest": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:48:15Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.5"
+    },
+    "legacyPartial": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:48:43Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.3"
+    },
+    "legacyCompleted": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": false,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:48:43Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.5"
+    },
+    "final": {
+      "id": 443718386,
+      "tag": "v0.0.5",
+      "draft": true,
+      "prerelease": false,
+      "published_at": "2026-11-13T01:48:43Z",
+      "assets": [
+        {
+          "id": 741850540,
+          "name": "NON_INSTALLABLE_FIXTURE.txt",
+          "size": 99
+        }
+      ],
+      "original": null,
+      "archive": "1943e70300de9124bb5c210da3bceebe2e3e082b",
+      "latest": "v0.0.3"
+    }
+  },
+  "partialHaltAnonymousAssetStatus": 404,
+  "existingFixturesUnchanged": true,
+  "productionTouched": false,
+  "result": "passed"
+}
